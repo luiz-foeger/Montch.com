@@ -7,6 +7,8 @@
     border-radius: 0 0 20px 20px;
     height: 75px;
     width: 95%;
+    font-family: 'Cal Sans', sans-serif;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .logo {
@@ -55,12 +57,12 @@ h3 {
     text-align: center;
     border-radius: 0 0 10px 10px;
     padding: 10px 0;
-    list-style: none; /* <- Remove as bolinhas */
+    list-style: none;
 }
 
 .dropdownProdutos li {
-    list-style: none; /* <- Também aqui, para garantir */
-    margin: 5px 0; /* Espaçamento entre os itens */
+    list-style: none;
+    margin: 5px 0;
 }
 
 .dropdownProdutos a {

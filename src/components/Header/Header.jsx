@@ -6,7 +6,7 @@ import estilos from './Header.module.css';
 function Header() {
     return (
         <header className={estilos.header}>
-            <img className={estilos.logo} src="/img/logo.png" alt="Logo" />
+            <img className={estilos.logo} src="/assets/images/logos/logo.png" alt="Logo" />
             <nav className={estilos.nav}>
                 <h3>
                     <Link to="/">Início</Link>
@@ -24,7 +24,7 @@ function Header() {
                     <Link to="/sobre-nos">Sobre nós</Link>
                 </h3>
             </nav>
-            <img className={estilos.logo} src="/img/logo.png" alt="Logo" />
+            <img className={estilos.logo} src="/assets/images/logos/logo.png" alt="Logo" />
         </header>
     );
 }
