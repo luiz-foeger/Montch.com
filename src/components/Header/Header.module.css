@@ -1,0 +1,113 @@
+.header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-self: center;
+    border-radius: 0 0 20px 20px;
+    height: 75px;
+    width: 95%;
+}
+
+.logo {
+    height: 25%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-weight: 100;
+
+}
+
+.nav a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #000000b1;
+    margin: 0 20px;
+    transition: ease 0.2s;
+}
+
+h3 {
+    display: flex;
+}
+.nav a:hover {
+    color: #000000;
+}
+
+.opcaoDropdown {
+    position: relative;
+    margin: 0 0 0 15px;
+}
+
+.dropdownProdutos {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    background-color: #ffffffec;
+    z-index: 999;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 0;
+    list-style: none; /* <- Remove as bolinhas */
+}
+
+.dropdownProdutos li {
+    list-style: none; /* <- Também aqui, para garantir */
+    margin: 5px 0; /* Espaçamento entre os itens */
+}
+
+.dropdownProdutos a {
+    display: block;
+    padding: 1px 0;
+    color: #0d0d0d;
+    text-decoration: none;
+}
+
+.dropdownProdutos a:hover {
+    color: #6c6c6c;
+}
+
+.opcaoDropdown:hover .dropdownProdutos {
+    display: flex;
+}
+
+
+
+/* ---------- */
+
+@media screen and (max-width: 670px) {
+    .logo {
+        height: 75%;
+    }
+    
+    .header {
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .logo {
+        height: 80%;
+    }
+    
+    .header {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .logo {
+        height: 90%;
+    }
+
+    .header {
+        height: 50px;
+    }
+}
