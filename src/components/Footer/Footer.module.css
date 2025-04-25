@@ -2,15 +2,15 @@
 
 footer {
     height: 130px;
-    background: transparent;
+    background: #ffffff31;
     color: white;
     text-align: center;
     font-size: 15px;
-    color: white;
+    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Inter, sans serif;
+    font-family: 'Cal sans', sans serif;
     bottom: 0;
 }
 

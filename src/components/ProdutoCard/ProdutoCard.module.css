@@ -1,0 +1,57 @@
+.card {
+    background-color: #ffffff;
+    text-align: center;
+    transition: transform 0.3s ease;
+    padding-bottom: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+}
+
+.nome {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #333;
+}
+
+.preco {
+    font-size: 26px;
+    color: #6c6c6c;
+}
+
+/* .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.nome {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #333;
+}
+
+.preco {
+    font-size: 16px;
+    color: #6c6c6c;
+} */
