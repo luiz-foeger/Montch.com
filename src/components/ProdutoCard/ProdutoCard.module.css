@@ -20,23 +20,37 @@
     height: auto;
 }
 
-.card .nome {
+.nome {
     font-size: 18px;
     margin: 8px 0;
     color: #333;
 }
 
-.card .preco {
+.preco {
     font-size: 26px;
     margin-bottom: 20px;
     color: #E66A2C;
 }
 
-.card .botaoContato {
+.descricao {
+    font-size: 16px;
+    color: #6c6c6c;
+    margin: 4px 0 10px;
+    font-family: Josefin Sans, sans-serif;  
+    font-weight: 300; 
+}
+
+/* .hashtag {
+    font-size: 14px;
+    color: #6c6c6c;
+    margin-bottom: 12px;
+} */
+
+.botaoContato {
     display: inline-flex;
-    align-items: center;  
-    gap: 8px;             
-    background-color: #E66A2C; 
+    align-items: center;
+    gap: 8px;
+    background-color: #E66A2C;
     color: white;
     padding: 12px 24px;
     border-radius: 8px;
@@ -45,7 +59,7 @@
     transition: all 0.3s ease-out;
 }
 
-.card .botaoContato:hover {
+.botaoContato:hover {
     background-color: #ba501b;
     color: white;
     transform: scale(1.02);
@@ -66,9 +80,9 @@
     align-items: center;
     justify-content: center;
     z-index: 1000;
-  }
-  
-  .modalContent {
+}
+
+.modalContent {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -76,15 +90,39 @@
     width: 90%;
     text-align: center;
     position: relative;
-  }
-  
-  .modalImagem {
+}
+
+.modalContent .preco {
+    font-size: 42px;
+}
+
+.modalContent .botaoContato {
+    font-size: 20px;
+}
+
+.botaoFechar {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+    position: absolute;
+    top: 27px;
+    right: 27px;
+    background-color: transparent;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.botaoFechar:hover {
+    color: #E66A2C;
+}
+
+.modalImagem {
     width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 12px;
-  }
-  
+}
+
 
 /* .card {
     background-color: #ffffff;
