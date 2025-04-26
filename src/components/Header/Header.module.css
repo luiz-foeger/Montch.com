@@ -35,6 +35,7 @@
 h3 {
     display: flex;
 }
+
 .nav a:hover {
     color: #000000;
 }
@@ -86,25 +87,33 @@ h3 {
 
 @media screen and (max-width: 670px) {
     .logo {
+        height: 25%;
+        margin-top: 20px;
+    }
+
+    .logo:nth-child(3) {
         display: none;
     }
-    
+
     .header {
-        height: 75px;
+        flex-direction: column;
+        height: 115px;
     }
 
     .nav a {
         font-size: 20px;
+        margin: 0 18px;
     }
 }
 
 @media screen and (max-width: 460px) {
     .logo {
-        display: none;
-    }
-    
+        height: 25%;
+        margin-top: 15px;
+    }   
+
     .header {
-        height: 65px;
+        height: 105px;
     }
 
     .nav a {
