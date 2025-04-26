@@ -3,7 +3,7 @@ import './Footer.module.css';
 function Footer() {
     return (
         <footer>
-            <p>© Copyright 2025 | Montch.br</p>
+            <p>© Copyright 2025 | Equipe Montch.br</p>
         </footer>
     );
 }

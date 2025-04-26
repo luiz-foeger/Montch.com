@@ -8,6 +8,7 @@ import Home from './pages/Home';
 // import Home from './pages/Home'; // import do componente Home
 
 import './App.css';
+import Erro from './components/404/Erro';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="*" element={<Erro />} />
       </Routes>
       <Footer />
     </div>
