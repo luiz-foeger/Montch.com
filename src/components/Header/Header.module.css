@@ -96,7 +96,7 @@ h3 {
 
 @media screen and (max-width: 460px) {
     .logo {
-        height: 80%;
+        display: none;
     }
     
     .header {
@@ -106,7 +106,7 @@ h3 {
 
 @media screen and (max-width: 370px) {
     .logo {
-        height: 90%;
+        display: none;
     }
 
     .header {

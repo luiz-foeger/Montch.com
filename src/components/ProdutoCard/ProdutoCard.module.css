@@ -3,26 +3,52 @@
     text-align: center;
     transition: transform 0.3s ease;
     padding-bottom: 10px;
+    transition: all 0.3s ease-out;
 }
 
 .card:hover {
     transform: translateY(-5px);
 }
 
-.imagem {
+.card:hover .botaoContato {
+    background-color: #E66A2C;
+}
+
+.card .imagem {
     width: 100%;
+    border-radius: 15px;
     height: auto;
 }
 
-.nome {
+.card .nome {
     font-size: 18px;
     margin: 8px 0;
     color: #333;
 }
 
-.preco {
+.card .preco {
     font-size: 26px;
-    color: #6c6c6c;
+    margin-bottom: 20px;
+    color: #E66A2C;
+}
+
+.card .botaoContato {
+    display: inline-flex; /* ou flex se quiser ocupar todo o espaço */
+    align-items: center;  /* Alinha verticalmente */
+    gap: 8px;             /* Espaçamento entre o texto e o ícone */
+    background-color: #E66A2C; /* cor do botão */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s ease-out;
+}
+
+.card .botaoContato:hover {
+    background-color: #ba501b;
+    color: white;
+    transform: scale(1.02);
 }
 
 /* .card {

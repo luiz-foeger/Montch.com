@@ -3,12 +3,12 @@ import ProdutoCard from '../ProdutoCard/ProdutoCard';
 
 function ListaProdutos() {
     const produtos = [
-        { id: 1, imagem: '/assets/images/produtos/1.png', nome: 'Conjunto Verão', preco: '119,90' },
-        { id: 2, imagem: '/assets/images/produtos/2.png', nome: 'Shorts Casual', preco: '79,90' },
-        { id: 3, imagem: '/assets/images/produtos/3.png', nome: 'Camiseta Básica', preco: '49,90' },
-        { id: 3, imagem: '/assets/images/produtos/4.png', nome: 'Camiseta Básica', preco: '49,90' },
-        { id: 4, imagem: '/assets/images/produtos/5.png', nome: 'Bermuda Esportiva', preco: '89,90' },
-        { id: 4, imagem: '/assets/images/produtos/6.png', nome: 'Bermuda Esportiva', preco: '89,90' },
+        { id: 1, imagem: '/assets/images/produtos/1.png', nome: 'Vanguard', preco: '44,90' },
+        { id: 2, imagem: '/assets/images/produtos/2.png', nome: 'Shorts Casual', preco: '179,90' },
+        { id: 3, imagem: '/assets/images/produtos/3.png', nome: 'Camiseta Básica', preco: '139,90' },
+        { id: 3, imagem: '/assets/images/produtos/4.png', nome: 'Camiseta Básica', preco: '69,90' },
+        { id: 4, imagem: '/assets/images/produtos/5.png', nome: 'Bermuda Esportiva', preco: '139,90' },
+        { id: 4, imagem: '/assets/images/produtos/6.png', nome: 'Bermuda Esportiva', preco: '44,90' },
     ];
 
     return (
